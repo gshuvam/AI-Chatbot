@@ -5,6 +5,7 @@ An intelligent chatbot using AI in Python Language
 This chatbot is based on seq2seq model, which is powered by neural network and features a encoder and a decoder for the purpose of interpreting the data.
 
 # Installation
+* Navigate to Source Code folder
 * Download and extract the zip file from weights folder.
 * Run the below command - <br />
 
@@ -25,14 +26,14 @@ I have trained my model to 10 epochs only. But you can train as much as you like
       pip install numpy
       pip install tensorflow
 
-* Download the movie-corpus dataset. 
+* Download the movie-corpus dataset(Data Set.rar) from Source Code folder. You can use any other dataset too, but you have to feed the data to model accordingly. 
 
 ## Training model 
 * Edit no of epochs in the chatbot.py file and run the below command -  
     
       python chatbot.py
     
-* Wait for the model to be trained and run the python file along with the trained data
+* Wait for the model to be trained and run the python file along with the trained data.
 
 ## Bonus
 You can use <a href="https://colab.research.google.com/"> Google Colab </a> to train your model. You can also <a href="https://colab.research.google.com/signup">visit</a> to upgrade your plan for fast training time.
